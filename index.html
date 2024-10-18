@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Harsh Shukla</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/harshshukla06" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/harsh-shukla-886a85288/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=humanityalive232@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Harsh 👋</h2>
+        <p>Aspiring Software Engineer with a Master's in Computer Applications (MCA) and a strong foundation in software development. Proficient in building Android applications using Kotlin and Jetpack Compose, with hands-on experience in integrating Firebase for backend services. Skilled in front-end technologies, including HTML and CSS, to create responsive and user-friendly interfaces. Passionate about solving real-world problems through innovative software solutions, with a focus on creating seamless user experiences. Seeking to leverage my skills in Android development and web technologies to contribute to dynamic projects and grow within a collaborative engineering team.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Project</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/harsh.jpeg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      
+      <div class="cells">
+        
+        <div class="cell">
+          <img src="images/Java_logo.png" alt="javascript logo">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/c_logo.jpg" alt="javascript logo">
+            <span>C</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/firebase_logo.jpg" alt="javascript logo">
+            <span>Firebase</span>
+          </div>
+        
+        <div class="cell">
+          <img src="images/kotlin_logo.jpg" alt="node logo">
+          <span>Kotlin</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/jetpack_logo.png" alt="react logo">
+          <span>Jetpack Compose</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo">
+            <span>HTML</span>
+          </div>
+          
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo">
+            <span>CSS</span>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Project</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/logo.jpeg">
+          <p>CHORDIFY</p>
+        </div>
+
+        <div class="text">
+            · Developed a music streaming app with user authentication and curated song library. 
+        </div>
+        <div class="text">
+            · Technologies Used : Kotlin, Firebase Firestore, Firebase Authentication
+        </div>
+        <div class="text">
+            · Key Features : Secure login and registration , Real-time music library management , Responsive UI
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: Profiles -->
+    <section class="profiles-section">
+        <h2>Profiles</h2>
+        <a href="https://leetcode.com/u/HarshShuklaa/" target="_blank" rel="noopener noreferrer">
+            
+            <span>Leetcode</span>
+          </a>
+          <a href="https://www.codechef.com/users/harsh_shukla06" target="_blank" rel="noopener noreferrer">
+            
+            <span>codechef</span>
+          </a>
+        
+          
+          
+  
+        </div>
+      </section>
+
+
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      
+
+      <div class="group">
+        <div class="text">
+            HARSH SHUKLA 
+            Lucknow, Uttar Pradesh, India 
+            6307746560 ⋄ humanityalive232@gmail.com
+        </div>
+        
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
